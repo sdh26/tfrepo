@@ -2,8 +2,8 @@
 provider "azurerm" {
     # The "feature" block is required for AzureRM provider 2.x. 
     # If you're using version 1.x, the "features" block is not allowed.
-    version = "1.44"
-    #features {}
+    version = "2.0"
+    features {}
 
     subscription_id = "1e1d965b-e295-49e8-868c-6334c33ba977"
     client_id       = "bdec2fae-bff5-4fc7-b594-472ff72f436e"
