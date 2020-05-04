@@ -1,4 +1,11 @@
 # Configure the Microsoft Azure Provider
+terraform {
+  backend "azurerm" {
+    key = "tf2\tf.state"
+  }
+
+  required_version = "0.12.24"
+}
 provider "azurerm" {
     # The "feature" block is required for AzureRM provider 2.x. 
     # If you're using version 1.x, the "features" block is not allowed.
