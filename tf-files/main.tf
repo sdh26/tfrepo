@@ -1,7 +1,7 @@
 # Configure the Microsoft Azure Provider
 terraform {
   backend "azurerm" {
-    key = "tf3\tf.state"
+    key = "tf4\tf.state"
   }
 
   required_version = "0.11.14"
